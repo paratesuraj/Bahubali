@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeTestNG.SampleClass">
+      <class name="Com.SaouceDemo.TestClass.AllTC">
         <methods>
-          <include name="VerifyLoginTitle"/>
+          <include name="logoutFuncatinality"/>
+          <include name="PersonalInfoAdd"/>
+          <include name="setup"/>
+          <include name="loginFunctinality"/>
+          <include name="productaddToCart"/>
+          <include name="personalInfoAdd"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- PracticeTestNG.SampleClass -->
+      </class> <!-- Com.SaouceDemo.TestClass.AllTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

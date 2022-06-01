@@ -4,6 +4,34 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
+      <class name="Com.SaouceDemo.TestClass.TC005_addPersonalInfo">
+        <methods>
+          <include name="personalInfoAdd"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.SaouceDemo.TestClass.TC005_addPersonalInfo -->
+      <class name="Com.SaouceDemo.TestClass.TC01_LoginPage_FunctionalityCheck">
+        <methods>
+          <include name="setup"/>
+          <include name="loginFunctinality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.SaouceDemo.TestClass.TC01_LoginPage_FunctionalityCheck -->
+      <class name="Com.SaouceDemo.TestClass.TC04_ProceedToCheckOut">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="PersonalInfoAdd"/>
+        </methods>
+      </class> <!-- Com.SaouceDemo.TestClass.TC04_ProceedToCheckOut -->
+      <class name="Com.SaouceDemo.TestClass.TC02_logoutfunc">
+        <methods>
+          <include name="logoutFuncatinality"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.SaouceDemo.TestClass.TC02_logoutfunc -->
       <class name="Com.SaouceDemo.TestClass.TC03_ProductAddToCart">
         <methods>
           <include name="productaddToCart"/>
